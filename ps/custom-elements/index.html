@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Elements</title>
+  </head>
+  <body>
+    <ps-comment />
+    <!-- <button is="ps-button"></button> -->
+
+    <script>
+      class PSComment extends HTMLElement {
+        constructor() {
+          super();
+          this.innerHTML =
+            "<h2>Plural Comment</h2> <textarea></textarea></br><input type='submit'/>";
+        }
+      }
+
+      customElements.define("ps-comment", PSComment);
+
+      class TextPS extends HTMLButtonElement {
+        constructor() {
+          super();
+
+          this.innerHTML = "PS Button";
+          this.value = "Default value";
+          this.style.color = "orange";
+        }
+      }
+
+      customElements.define("ps-button", TextPS, { extends: "button" });
+
+      let psbutton = document.createElement("button", "ps-button");
+      document.body.appendChild(psbutton);
+
+      //   document.body.innerHTML = '<button is="ps-button"/>';
+    </script>
+  </body>
+</html>
