@@ -11,3 +11,15 @@ table,
 td {
   border: 1px solid #ccc;
 }
+
+.yellow {
+  background-color: #fcf8c6;
+}
+
+.purple {
+  background-color: #c5c7fd;
+}
+
+.green {
+  background-color: #c4f4cd;
+}

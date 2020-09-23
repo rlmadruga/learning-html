@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-color {
+  background-color: blue;
+  padding: 15px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 16px;
+}
+
+div a:hover {
+  background-color: white;
+  color: blue;
+}
+
+footer {
+  background-color: blueviolet;
+  position: fixed;
+  bottom: 0;
+  display: block;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  color: aliceblue;
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+}
