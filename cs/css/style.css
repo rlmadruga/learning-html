@@ -39,6 +39,10 @@ body {
   padding: 10px;
 }
 
+.card-header a {
+  color: black;
+}
+
 .address {
   font-size: 80%;
   margin: 0;
