@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+}
+
+.top,
+.body,
+.footer {
+  /* width: 800px; */
+  width: 100%;
+  max-width: 800px;
+  height: 100px;
+  margin: auto;
+}
+
+.logo,
+.menu {
+  width: 50%;
+  height: 100px;
+  float: left;
+  background-color: #eee;
+}
+
+.menu {
+  background-color: #ddd;
+}
+
+.body {
+  background-color: #ccc;
+  height: 200px;
+}
+
+.footer {
+  background-color: #ddd;
+}
+/* 
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  .top,
+  .body,
+  .footer {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .top {
+    height: 200px;
+    width: 300px;
+  }
+  .logo,
+  .menu {
+    width: 100%;
+  }
+
+  .body,
+  .footer {
+    width: 300px;
+  }
+} */
+
+@media only screen and (max-width: 500px) {
+  .top {
+    height: 200px;
+  }
+  .logo,
+  .menu {
+    width: 100%;
+  }
+}
