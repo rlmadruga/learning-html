@@ -31,3 +31,25 @@ nav a:hover {
   background-color: white;
   color: red;
 }
+
+.float_left {
+  float: left;
+  border: 5px solid red;
+  margin: 0 1rem 1rem 0;
+}
+
+article {
+  width: 30rem;
+  border: 3px solid red;
+  margin: 0 auto;
+}
+
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.float_right {
+  float: right;
+}
