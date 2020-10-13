@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  height: 30px;
+  background-color: #0d2137;
+}
+
+.top-internal {
+  width: 100%;
+  max-width: 1600px;
+  height: 30px;
+  background-color: green;
+  margin: auto;
+}
