@@ -193,12 +193,12 @@ i.fa-sort-down {
 }
 
 .latest-news {
-  height: 50px;
+  height: 40px;
 }
 
 .latest-news-internal {
   width: 100%;
-  height: 50px;
+  height: 40px;
   max-width: 1600px;
   margin: auto;
 }
@@ -219,4 +219,47 @@ i.fa-sort-down {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 16px;
+}
+
+.latest-news-news {
+  color: #0d2137;
+  height: 28px;
+  line-height: 28px;
+  display: inline-block;
+  padding-left: 5px;
+}
+
+.container-internal {
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.container-right {
+  width: 275px;
+  min-height: 200px;
+  float: right;
+  margin-left: 12px;
+}
+
+.container-left {
+  float: left;
+  background-color: #999;
+  width: 1313px;
+  min-height: 200px;
+}
+
+.container-right-widget {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.widget-title {
+  height: 30px;
+  border-bottom: 1px solid #ccc;
+  background-color: #ddd;
+  line-height: 30px;
+  padding-left: 5px;
+  font-size: 14px;
 }
