@@ -68,20 +68,21 @@
   margin-right: 4px;
 }
 
-.top-right i.fa-rss-square {
+i.fa-rss-square,
+i.fa-rss-square {
   color: orange;
 }
 
-.top-right i.fa-google-plus-square,
+i.fa-google-plus-square,
 i.fa-youtube {
   color: red;
 }
 
-.top-right i.fa-facebook-square {
+i.fa-facebook-square {
   color: #38529a;
 }
 
-.top-right i.fa-twitter-square {
+i.fa-twitter-square {
   color: #4ea6e9;
 }
 
@@ -262,4 +263,27 @@ i.fa-sort-down {
   line-height: 30px;
   padding-left: 5px;
   font-size: 14px;
+}
+
+.widget-content {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.widget-content i {
+  font-size: 26px;
+}
+
+.news-item {
+  font-size: 14px;
+  margin: 0px 10px;
+  padding: 10px 0px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.news-item a {
+  text-decoration: none;
+  color: #0d2137;
 }
