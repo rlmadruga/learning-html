@@ -121,7 +121,7 @@ i.fa-search {
 }
 
 .logo h1 {
-  font-family: "Staatliches", cursive;
+  font-family: 'Staatliches', cursive;
   letter-spacing: 5px;
   font-size: 5rem;
   line-height: 90px;
@@ -245,9 +245,7 @@ i.fa-sort-down {
 
 .container-left {
   float: left;
-  background-color: #999;
   width: 1313px;
-  min-height: 200px;
 }
 
 .container-right-widget {
@@ -286,4 +284,125 @@ i.fa-sort-down {
 .news-item a {
   text-decoration: none;
   color: #0d2137;
+}
+
+.slideshow {
+  height: 335px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.slideshow-area {
+  width: 100000px;
+  height: 335px;
+  background-color: #ddd;
+  transition: all 1s;
+}
+
+.slideshow-slide {
+  height: 335px;
+  float: left;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slide-info {
+  height: 70px;
+  background-image: url('../images/slideshow_bg.png');
+  background-size: auto 70px;
+  margin-top: 265px;
+}
+
+.info-title {
+  font-size: 20px;
+  color: #fff;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.info-subtitle {
+  font-size: 13px;
+  color: #fff;
+  padding-left: 20px;
+}
+
+.slideshow-menu {
+  position: absolute;
+  width: 200px;
+  height: 20px;
+}
+
+.ball-menu {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+  cursor: pointer;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.news-area-1 {
+  width: 991px;
+  height: 420px;
+  float: left;
+}
+
+.news-area-2 {
+  width: 320px;
+  height: 420px;
+  float: left;
+}
+
+.news-item-important {
+  text-align: left;
+  height: 88px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.news-img {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #ccc;
+  padding: 3px;
+  float: left;
+}
+
+.news-title {
+  float: left;
+  margin-left: 6px;
+  font-size: 16px;
+  width: 226px;
+  color: #000;
+}
+
+.news-subtitle {
+  width: 226px;
+  font-size: 12px;
+  margin-left: 6px;
+  color: #999;
+  float: left;
+}
+
+.news-big {
+  margin-left: 10px;
+}
+
+.news-big .news-img {
+  width: 900px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.news-big .news-img img {
+  width: 900px;
+  height: 300px;
+}
+
+.news-big .news-title {
+  width: 900px;
+  font-size: 30px;
 }
