@@ -135,6 +135,10 @@ i.fa-search {
   background-color: #ff8e2b;
 }
 
+i.menu-mobile {
+  display: none;
+}
+
 .menu {
   height: 40px;
   background-color: #ff8e2b;
@@ -407,10 +411,6 @@ i.fa-sort-down {
   font-size: 30px;
 }
 
-.menu-mobile {
-  display: none;
-}
-
 @media only screen and (min-width: 902px) and (max-width: 1615px) {
   .top-sub .banner {
     width: 400px;
@@ -422,6 +422,10 @@ i.fa-sort-down {
   .latest-news-internal,
   .container-internal {
     max-width: 890px;
+  }
+
+  #menu {
+    display: block !important;
   }
 
   .container-left {
@@ -445,7 +449,7 @@ i.fa-sort-down {
     font-size: 25px;
   }
 
-  .menu-mobile {
+  i.menu-mobile {
     display: none;
   }
 }
@@ -525,11 +529,8 @@ i.fa-sort-down {
     width: 100%;
   }
 
-  .menu-mobile {
+  i.menu-mobile {
     display: block;
-  }
-
-  .menu-mobile {
     font-size: 3rem;
     color: #fff;
     cursor: pointer;
